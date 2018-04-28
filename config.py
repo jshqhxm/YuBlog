@@ -19,25 +19,25 @@ class Config(object):
 
     # 博客信息
     # 管理员姓名
-    ADMIN_NAME = '俞坤'
+    ADMIN_NAME = '何晓敏'
     # 管理员登录信息
-    ADMIN_LOGIN_NAME = 'yukun'
+    ADMIN_LOGIN_NAME = 'hexiaomin'
     # 登录密码
     ADMIN_PASSWORD = os.getenv('ADMIN_PASSWORD') or 'password'
     # 博客名
-    SITE_NAME = '意外'
+    SITE_NAME = '晓'
     # 博客标题
-    SITE_TITLE = '俞坤的博客'
+    SITE_TITLE = '晓的博客'
     # 管理员简介
-    ADMIN_PROFILE = '克制力，执行力'
+    ADMIN_PROFILE = '敏于行，讷于言'
 
     # RSS站点信息
     # 站点协议
     WEB_PROTOCOL = 'http'
     # 站点域名
-    WEB_URL = 'www.yukunweb.com'
+    WEB_URL = 'www.huaweip.cn'
     # 站点创建时间
-    WEB_START_TIME = '2017-05-25'
+    WEB_START_TIME = '2018-04-28'
     # 显示条数
     RSS_COUNTS = 10
 
@@ -49,7 +49,7 @@ class Config(object):
     MAIL_PORT = os.getenv('MAIL_PORT') or '465'
 
     ADMIN_MAIL_SUBJECT_PREFIX = 'blog'
-    ADMIN_MAIL_SENDER = 'admin 944682328@qq.com'
+    ADMIN_MAIL_SENDER = 'admin 94034662@qq.com'
     # 接收邮件通知的邮箱
     ADMIN_MAIL = os.getenv('ADMIN_MAIL')
     # 搜索最小字节
